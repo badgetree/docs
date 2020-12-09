@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 
 const fs = require("fs");
-const toVfile = require("to-vfile");
 const argv = require("minimist")(process.argv.slice(2));
 const render = require("./render");
 
 const files = argv["_"];
 
 files.forEach(async (file) => {
-  const vfile = await toVfile.read(file);
-  render(vfile);
+  fs.readFile(file, "utf-8", async function (err, data) {
+    if (err) throw err;
+    await render(data);
+  });
 });

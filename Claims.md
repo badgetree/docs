@@ -1,7 +1,7 @@
 My Edvolution Badges
 ===
 
-## Table of Contents
+${toc}
 
 ## Badge Journeys
 > Badge issuing and recipient journeys for Badgetree and My Edvolution
