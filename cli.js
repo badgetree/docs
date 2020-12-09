@@ -4,3 +4,7 @@
 const argv = require("minimist")(process.argv.slice(2));
 
 const files = argv['_']
+
+files.forEach((file) => {
+  console.log(file); // eslint-disable-line
+})
