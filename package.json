@@ -10,6 +10,9 @@
   "author": "Edvolution",
   "license": "UNLICENSED",
   "dependencies": {
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "remark": "^13.0.0",
+    "remark-toc": "^7.0.0",
+    "to-vfile": "^6.1.0"
   }
 }
