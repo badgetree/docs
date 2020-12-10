@@ -1,8 +1,17 @@
 module.exports = {
-pathPrefix: "/docs",
+  pathPrefix: "/docs",
   plugins: [
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-offline",
+    "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "images",
+        path: "../images/",
+      },
+      __key: "images",
+    },"gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -25,7 +34,7 @@ pathPrefix: "/docs",
             },
           },
           "gatsby-remark-autolink-headers",
-          "gatsby-remark-mermaid"
+          "gatsby-remark-mermaid",
         ],
       },
     },
