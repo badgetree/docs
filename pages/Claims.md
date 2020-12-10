@@ -1,3 +1,9 @@
+---
+slug: "/posts/claims"
+date: "2020-09-12"
+title: "My Edvolution Badges"
+---
+
 My Edvolution Badges
 ===
 

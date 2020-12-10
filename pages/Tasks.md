@@ -1,3 +1,9 @@
+---
+slug: "/posts/diploma"
+date: "2020-09-12"
+title: "Diploma Timeline"
+---
+
 Diploma Timeline
 ===
 
