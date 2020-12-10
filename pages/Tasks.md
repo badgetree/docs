@@ -62,7 +62,7 @@ It must have:
 
 Must implement:
 - Page title and metadata
-- The designs conforming the constraints defined in HTML, CSS and JavaScript, including responsive variants.
+- The designs conforming to the constraints defined in HTML, CSS and JavaScript, including responsive variants.
 - Internationalization (i18n) & localization (i10n), initially in Spanish and English.
 - Accessibility standards i.e. WAI-ARIA for WCAG 2.1 AA conformance.
 - Web performance best practices.
@@ -114,6 +114,6 @@ The Badgetree backend aka Sphingi requires some updates for the new functionalit
 It must have:
 - Batch assertions not automatically baking badges on creation.
 - A string `claim_code` property on the Assertion entity.
-- A route to look-up Assertions by UUID.
+- A route to look-up Assertions by `claim_code`.
 - A boolean `claimed` property on the Assertion entity.
 - A route to update Assertions claimed property.
