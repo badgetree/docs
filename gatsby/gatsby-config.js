@@ -4,6 +4,8 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-offline",
     "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+    "gatsby-remark-images",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -11,7 +13,7 @@ module.exports = {
         path: "../images/",
       },
       __key: "images",
-    },"gatsby-transformer-sharp",
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -35,6 +37,7 @@ module.exports = {
           },
           "gatsby-remark-autolink-headers",
           "gatsby-remark-mermaid",
+          "gatsby-remark-images",
         ],
       },
     },
