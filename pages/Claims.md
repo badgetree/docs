@@ -4,10 +4,10 @@ date: "2020-09-12"
 title: "My Edvolution Badges"
 ---
 
-My Edvolution Badges
-===
-
-${toc}
+## Table of Contents
+```toc
+from-heading: 2
+```
 
 ## Badge Journeys
 > Badge issuing and recipient journeys for Badgetree and My Edvolution

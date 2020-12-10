@@ -4,12 +4,14 @@ date: "2020-09-12"
 title: "Diploma Timeline"
 ---
 
-Diploma Timeline
-===
+## Table of Contents
+```toc
+from-heading: 2
+```
 
 ## Claim Codes
 
-> A web site that receives a claim code and renders a badge and diploma
+A web site that receives a claim code and renders a badge and diploma
 
 ### Design
 
@@ -105,7 +107,7 @@ It must implement:
 
 ## Sphingi
 
-> The Badgetree backend aka Sphingi requires some updates for the new functionality
+The Badgetree backend aka Sphingi requires some updates for the new functionality
 
 ### Development
 
