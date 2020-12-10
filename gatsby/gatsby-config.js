@@ -1,4 +1,5 @@
 module.exports = {
+pathPrefix: "/docs",
   plugins: [
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-offline",
